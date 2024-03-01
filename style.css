@@ -1,0 +1,312 @@
+
+body{
+    margin: auto;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 1520px;
+	
+}
+
+* {	
+	
+   moz-box-sizing: border-box; 
+    margin: 0px;
+	padding: 0px;
+}
+
+
+/*Phần đầu - heading*/
+
+#phandau {
+	width: 1520px;
+	height: 130px;
+	border: 0px solid #D71920;
+/*	background-color: chartreuse;*/
+	border-bottom: 3px solid #D71920;
+    background-repeat: no-repeat;
+	background-image: url("Ảnh/anhtrongdonghung 2.jpg");
+    background-size: 100% 150px;
+    
+    		
+}
+
+.logo{ 
+	float: left;
+	padding-left: 200px;
+	padding-top: 20px;
+	
+}
+
+
+.h9{
+	 float: right;
+	margin-right:200px;
+	margin-top: 10px;
+	}
+
+.h9 input{
+	width: 280px;
+	height: 34px ;
+	border: 1.5px solid rgb(159,156,149);
+	border-radius: 10px;
+}
+
+.container{
+	width: 1100px;
+	margin: 0 auto;
+
+}
+
+/*Phần menu đa cấp */
+  .menu ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+		background-color: #D71920;
+    
+}
+   .menu li{
+        width: 150px;
+    }
+    .menu>ul{
+        height: 40px;
+    }
+    .menu>ul>li{
+        
+        border-right: 1px solid #dddddd;
+        position: relative;
+		line-height: 40px;
+	    text-align: center;display: inline-block;
+    }
+    .menu>ul>li>a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+    }
+      .menu>ul>li>ul {
+        display: none;
+        position: absolute ;
+        top: 30px; 
+		padding-left:10px;
+	    text-align: left;
+		width: 200px;
+    }
+    .menu >ul>li>ul li{
+        padding: 5px 0;
+        border-bottom: 1px ;
+		color: #fff;
+    }
+    .menu ul li:last-child{
+        border: none;
+    }
+    .menu ul li:nth-child(3){
+        width: 300px;
+    }
+   
+    .menu ul li:nth-child(4){
+		width: 200px;
+    }
+
+
+    .menu ul li:hover ul{
+        display: block;
+    }
+
+/* Phần chữ chạy */
+
+  marquee a {
+    color: #333333;
+	font-size: 17px;
+	padding: 0 30px;
+	text-decoration: none;
+	
+	}
+
+marquee img {
+	width: 15px;
+	height: 15px ;
+    margin-right: 2px;
+	margin-bottom: -2px;
+}
+
+
+/* Phần giữa - content */
+
+
+#phangiua {
+	width: 1101px;
+	height: 500px;
+	margin: 0px auto;
+}
+
+#ndtrai .trai1{
+	width: 437px;
+	height: 510px;
+	float: left;
+
+}
+
+#ndtrai .trai1  img {
+     width: 437px;
+	 height: 270px;	
+}
+
+
+
+#ndtrai .trai1 a p{
+	color: #262626;
+}
+
+
+.khoangtrang{
+	width: 24px;
+	height: 510px;
+	float:left;
+	
+}
+
+#ndtrai .trai2{
+	width: 295px;
+	height: 510px;
+	float: left;
+	overflow-y: auto ;
+	
+}
+.trai2 a img {
+	width: 100px;
+	height: 66px;
+	float : left;
+	
+}
+
+.trai2 a  p {
+	font-size: 16px; 
+	color: #333333;
+	
+}
+
+#ndphai{
+	width: 321px;
+	height: 510px;
+/*	background: #F7ED4C;*/
+	float: right;
+
+}
+
+#ndphai img {
+	width: 321px;
+	height: 105px;
+}
+	
+#ndphai .box {
+	width: 321px;
+	height: 370px;
+	
+	margin-top: 16px;
+	padding-top: 20px;
+	padding-bottom: 22px;
+	
+	font-size: 13px ;
+	background: #FDF0F0;
+		
+}
+
+#ndphai .box .text1 { text-align: center; color: #404041; }
+
+.abc {
+	
+	width: 301px;
+	height: 285px;
+	margin: 22px 8px;
+	font-size: 16px;
+	overflow-y: scroll;
+}
+
+
+
+
+ 
+ 
+
+/* Phần kết - footer  css */
+#phanket  {
+	width: 1520px;
+	height: 415px;
+	
+    background-image: url("Ảnh/anhtrongdonghung 2.jpg");
+	background-repeat: no-repeat;
+	background-size: 1520px 355px;
+	border-top: 3px solid #BE1E2D;
+	
+}
+
+#phanket .menu-footer {
+	width: 1520px;
+	height: 355px;
+}
+
+.footer-layout ul {
+	text-align: center;
+}
+
+.footer-layout ul li {
+	display: inline-block;
+    list-style: none;
+    padding: 22px 15px;
+}
+.footer-layout ul li a {
+	text-decoration: none;
+	color: #BE1E2D;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.footer-child ul { 
+	text-align: center;
+}
+.footer-child ul li {
+	display: inline-block;
+    list-style: none;
+	padding: 0 15px 35px ;
+}
+
+.footer-child ul li a {
+	text-decoration: none;
+	color: #404041;
+	font-size: 17px;
+}
+.menu-footer img {
+	width: 200px;  height: 150px;
+} 
+
+.menu-footer .footer-text1 {
+	font: 700 18px Roboto,Arial,Tahoma;
+    color: #be1e2d;
+    text-transform: uppercase;
+	text-align: center;
+	font-size: 17px;
+}
+.menu-footer .footer-text2 {
+	text-align: center; 
+	font-size: 15px;
+}
+.menu-footer .p {
+	padding: 25px 0 30px 0;
+   display:block;
+}
+
+#phanket .footer-text3 {
+	width: 1520px;
+	height: 50px;
+	background-color: #BE1E2D;
+ 
+	
+}
+#phanket .footer-text3 p {
+	float: left;
+    font: 100 13px Roboto,Arial,Tahoma;
+    color: #FFF;
+    padding: 10px 0 0 200px;
+	display: block;
+}
